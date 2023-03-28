@@ -208,10 +208,6 @@ body {
   color: white;
 }
 
-/*-----------------------------------*\
-  #HERO
-\*-----------------------------------*/
-
 .hero {
   padding: 125px 0 var(--section-padding);
   background: var(--ghost-white-1);
