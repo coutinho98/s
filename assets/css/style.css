@@ -275,10 +275,10 @@ body {
 .about-icon {
   width: 60px;
   height: 60px;
-  background: var(--lavender-web);
+  background: rgba(128, 128, 128, 0.172);
   display: grid;
   place-items: center;
-  color: var(--majorelle-blue);
+  color: grey;
   font-size: 40px;
   border-radius: 4px;
   margin-bottom: 20px;
