@@ -610,8 +610,7 @@ footer .logo {
   }
 
   .hero-banner {
-    max-width: 600px;
-    margin-inline: auto;
+    height: 500px;
   }
 
   .about-list {
