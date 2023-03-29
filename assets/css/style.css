@@ -309,7 +309,7 @@ body {
   background: #cfb284;
   opacity: 1;
   transform: translateY(-5px);
-  box-shadow: 0 5px 18px hsla(284, 100%, 50%, 0.4);
+  box-shadow: 0 5px 18px hsla(0, 0%, 0%, 0.4);
 }
 
 .about-card .card-icon {
