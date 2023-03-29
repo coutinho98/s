@@ -257,7 +257,8 @@ body {
 }
 
 .hero-banner img {
-  width: 100%;
+  width: 120%;
+  border-radius: 20px;
 }
 
 .about {
@@ -611,6 +612,7 @@ footer .logo {
 
   .hero-banner {
     height: 500px;
+    
   }
 
   .about-list {
