@@ -64,9 +64,15 @@
               </p>
             </div>
 
-            <figure class="hero-banner">
-              <img src="./assets/images/mobilogo.jpg" alt="Hero image" />
-            </figure>
+            <div class="hero-banner">
+              <button id="prev-button"><img src="./assets/images/arrow.png" alt="prev-button"></button>
+              <div class="container-images">
+                <img src="./assets/images/mobibanner1.jpg" alt="Hero image" class="slider on" />
+                <img src="./assets/images/mobibanner2.jpg" alt="Hero image" class="slider"/>
+                <img src="./assets/images/mobibanner3.jpg" alt="Hero image" class="slider"/>
+              </div>
+                <button id="next-button"><img src="./assets/images/arrow.png" alt="next-button"></button>
+            </div>
           </div>
         </section>
 
@@ -155,7 +161,7 @@ e será cobrada uma taxa de R$17,50 em caso de emissão de segunda via.
             </p>
 
             <div class="contact-wrapper">
-              <form action="" class="contact-form">
+              <form action="mailto:mate_wilsom 1@hotmail.com" method="POST" enctype="text/plain" class="contact-form">
                 <div class="wrapper-flex">
                   <div class="input-wrapper">
                     <label for="name">Nome*</label>
@@ -199,11 +205,15 @@ e será cobrada uma taxa de R$17,50 em caso de emissão de segunda via.
 
                   <ion-icon name="paper-plane-outline"></ion-icon>
                 </button>
+
+                <input type="hidden" name="_subject" value="Nova Resposta MOBISAJ">
+                <input type="text" name="_honey" style="display:none">
+                <input type="hidden" name="_captcha" value="false">
               </form>
 
               <ul class="contact-list">
                 <li>
-                  <a href="mailto:support@website.com" class="contact-link">
+                  <a href="mailto:mobi@mobi.com" class="contact-link">
                     <ion-icon name="mail-outline"></ion-icon>
 
                     <span>: mobi@mobi.com</span>
