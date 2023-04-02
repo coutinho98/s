@@ -211,7 +211,6 @@ body {
 
 .hero {
   padding: 125px 0 var(--section-padding);
-  background: var(--ghost-white-1);
 }
 
 .hero-content {
@@ -220,6 +219,7 @@ body {
 
 .hero-title {
   margin-bottom: 25px;
+  width: 500px;
 }
 
 .hero-text {
@@ -258,8 +258,9 @@ body {
 }
 
 .hero-banner img {
-  width: 150%;
+  width: 180%;
   border-radius: 20px;
+  
 }
 
 .about {
@@ -627,6 +628,7 @@ footer .logo {
     position: absolute;
     width: 100%;
     border-radius: 10px;
+    
   }
 
   .on {
@@ -654,7 +656,7 @@ footer .logo {
   }
 
   #next-button {
-    margin-left: 230px;
+    margin-left: 365px;
   }
 
   .about-list {
